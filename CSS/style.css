@@ -1,0 +1,582 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+}
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.navbar-menu {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+.head-contact {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+}
+.header-contact-item {
+  display: flex;
+  gap: 10 px;
+}
+.header-contact-link {
+  text-decoration: none;
+}
+.header-contact-link:hover .header-contact-link-text {
+  color: #2196f3;
+}
+.header-contact-link:hover .svg-contact-icon {
+  fill: #2196f3;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-contact-link-text {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.svg-mail {
+  margin: 0;
+}
+.svg-mail:hover {
+  fill: #2196f3;
+}
+.svg-phone:hover {
+  fill: #2196f3;
+}
+.menu {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  gap: 46px;
+}
+.underline {
+  position: relative;
+  color: #2196f3;
+}
+.underline::after {
+  position: absolute;
+  content: "";
+  top: 45px;
+  left: 0;
+  width: 53px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #2196f3;
+}
+.logo-nav {
+  display: flex;
+  font-family: "Raleway";
+  color: #2196f3;
+  line-height: 1.19;
+  font-weight: 700;
+  font-size: 26px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 93px;
+}
+.logo-final {
+  justify-content: space-between;
+  font-family: "Raleway";
+}
+.logo {
+  font-family: "Raleway";
+  color: black;
+  line-height: 1.19;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+}
+.logo span {
+  color: #2196f3;
+}
+.logo:hover {
+  color: #2196f3;
+}
+.menu-links {
+  display: flex;
+  color: black;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.menu-links:hover {
+  color: #2196f3;
+}
+.main-description {
+  padding: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+.main-description > h1 {
+  color: white;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.contact-mail {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.contact-mail:hover {
+  color: #2196f3;
+}
+.contact-phone {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.contact-phone:hover {
+  color: #2196f3;
+}
+.button-description {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.88;
+  background-color: #2196f3;
+  color: #fff;
+  padding: 10px 42px;
+  border-radius: 4px;
+  border: none;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+  margin-bottom: 10px;
+}
+.our-strenghts {
+  display: flex;
+  padding: 0;
+  gap: 30px;
+  letter-spacing: 0.03em;
+}
+.lorem-ipsum {
+  width: 270px;
+  height: 75px;
+  left: 515px;
+  top: 950px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  line-height: 1.71;
+}
+.icons {
+  background-color: #f5f4fa;
+  padding: 25px 101.54px 25px 101.5px;
+  gap: 30px;
+}
+.lorem-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  padding-top: 94px;
+  padding-bottom: 30px;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 94px;
+}
+.what-we-do {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: space-around;
+  gap: 30px;
+  margin: 0 auto;
+  padding-bottom: 94px;
+}
+.what-we-do-item {
+  position: relative;
+}
+.description-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 27px 0;
+  background: rgba(47, 48, 58, 0.8);
+}
+.description-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.section-background {
+  background-color: #2f303a;
+  height: 600px;
+  background-image: url(../images/Team-image.jpg);
+}
+.team-background {
+  background: #f5f4fa;
+
+  padding-bottom: 94px;
+}
+.our-team {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  justify-content: center;
+}
+.our-clients {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+.client-logo {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+  fill: currentColor;
+  cursor: pointer;
+  width: 170px;
+  height: 92px;
+  text-align: center;
+  padding-top: 17.71px;
+}
+.client-logo:hover {
+  color: #2196f3;
+  border-color: #2196f3;
+}
+.human {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
+  text-align: center;
+}
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+}
+.job-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #757575;
+}
+.social-media {
+  cursor: pointer;
+}
+.media {
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  fill: #afb1b8;
+}
+.media-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 0;
+}
+.media:hover {
+  fill: #ffffff;
+  background: #2196f3;
+  border-radius: 50%;
+}
+h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+  padding-top: 20px;
+  padding-left: 24px;
+}
+.LIP {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1.4em;
+  vertical-align: baseline;
+  text-decoration: none;
+  outline: 0;
+}
+.usluga {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+  padding-top: 4px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
+.footer-description {
+  background-color: #2f303a;
+  overflow: hidden;
+  display: flex;
+}
+.footer-block {
+  display: flex;
+  float: left;
+}
+.webstudio-footer {
+  padding: 0;
+  padding-right: 70px;
+  padding-top: 60px;
+  margin: 0 auto;
+}
+.footer-final {
+  padding-top: 20px;
+}
+.address {
+  font-family: roboto;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
+  padding-bottom: 9px;
+}
+.mail-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.phone-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.logo1 {
+  color: #2196f3;
+  margin: 0;
+  font-family: "Raleway";
+  line-height: 1.19;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+}
+.logo2 {
+  color: #fff;
+  margin: 0;
+  font-family: "Raleway";
+  line-height: 1.19;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+}
+.logo2:hover {
+  color: #2196f3;
+}
+.dolacz-do-nas {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #fff;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 0;
+  float: left;
+  padding-top: 72px;
+}
+.join-us {
+  padding-bottom: 10px;
+  font-family: Roboto;
+  font-weight: 700;
+}
+.media-footer {
+  display: flex;
+  gap: 10px;
+}
+.social-footer {
+  fill: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-footer svg {
+  display: block;
+}
+.social-footer:hover {
+  fill: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
+}
+/*PORTFOLIO*/
+.border {
+  border-bottom: 1px solid;
+  border-color: #ececec;
+}
+.all-buttons {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 94px;
+}
+.portfolio-buttons {
+  background: #f5f4fa;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.62;
+  font-size: 16px;
+  color: #212121;
+  border-style: none;
+  padding: 6px 22px;
+  margin: 0px 4px;
+  cursor: pointer;
+}
+.portfolio-buttons:hover {
+  background: #2196f3;
+  color: #fff;
+}
+.portfolio-pics {
+  margin: 0;
+  padding-bottom: 94px;
+}
+.images {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+.image {
+  border: solid 1px;
+  border-color: #eee;
+  cursor: pointer;
+}
+.image:hover .overlay {
+  transform: translateY(-100%);
+}
+.image:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.image-wrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 100%;
+  padding: 49px 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: rgba(33, 150, 243, 0.9);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project-descr-wrap {
+  width: 100%;
+}
+.backdrop {
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  transform: scale(1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  height: 581px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.close-button-position {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 14px;
+  right: 14px;
+  fill: #000000;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.close-button {
+  margin: 6px;
+}
