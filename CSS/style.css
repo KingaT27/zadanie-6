@@ -580,3 +580,214 @@ h4 {
 .close-button {
   margin: 6px;
 }
+.modal-form-look {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top: 40px;
+  padding-bottom: 12px;
+}
+.input-style {
+  display: block;
+  position: relative;
+  margin-top: 4px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.label-title {
+  display: flex;
+  flex-direction: column;
+  color: #757575;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.12px;
+  margin-bottom: 10px;
+}
+.input-label {
+  display: flex;
+  width: 448px;
+  height: 40px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 42px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
+}
+.modal-icons-position-1 {
+  position: absolute;
+  top: 14px;
+  flex-shrink: 0;
+  justify-content: center;
+  margin-left: 12px;
+  margin-top: 11px;
+}
+.label-title {
+  display: flex;
+  flex-direction: column;
+  color: #757575;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.12px;
+  margin-bottom: 10px;
+}
+.modal-icons-position-2 {
+  position: absolute;
+  top: 14px;
+  flex-shrink: 0;
+  justify-content: center;
+  margin-left: 12px;
+  margin-top: 11px;
+}
+.modal-icons-position-3 {
+  position: absolute;
+  top: 14px;
+  flex-shrink: 0;
+  justify-content: center;
+  margin-left: 12px;
+  margin-top: 11px;
+}
+.last-label-style {
+  color: #757575;
+  font-size: 12px;
+  font-family: Roboto;
+  letter-spacing: 0.12px;
+  padding-bottom: 4px;
+}
+.textarea-label-2 {
+  display: flex;
+  flex-direction: column;
+  resize: none;
+  width: 448px;
+  height: 120px;
+  padding-left: 16px;
+  padding-top: 12px;
+  color: rgba(117, 117, 117, 0.5);
+  font-size: 12px;
+  font-family: Roboto;
+  letter-spacing: 0.12px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.agree-look {
+  padding-top: 20px;
+  border: none;
+}
+.form-label {
+  color: #757575;
+  font-size: 14px;
+  font-family: Roboto;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  padding-top: 20px;
+}
+.modal-links {
+  color: #2196f3;
+  text-decoration: underline;
+}
+.modal-button-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.modal-button {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+.modal-button-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.footer-section-3 {
+  float: left;
+  padding-top: 72px;
+  padding-left: 77px;
+}
+.social-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.newsletter-gap {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.label-1 {
+  display: flex;
+  align-items: center;
+  background-color: #2f303a;
+  width: 358px;
+  height: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.newsletter-input {
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 19px;
+  background-color: #2f303a;
+  border: none;
+}
+.newsletter-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+.newsletter-button-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  padding-right: 24px;
+}
+.newsletter-button-icon {
+  fill: #ffffff;
+}
