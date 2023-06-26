@@ -690,12 +690,12 @@ h4 {
   border-color: #2196f3;
   fill: #2196f3;
 }
-.merged-checkbox {
-  position: relative;
-}
 .agree-look {
   padding-top: 20px;
   border: none;
+}
+.merged-checkbox {
+  position: relative;
 }
 .checkbox-hidden {
   -moz-appearance: none;
