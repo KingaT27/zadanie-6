@@ -628,6 +628,9 @@ h4 {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
 }
+.input-label:hover {
+  border-color: #2196f3;
+}
 .modal-icons-position-1 {
   position: absolute;
   top: 14px;
@@ -683,9 +686,21 @@ h4 {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
+.textarea-label-2:hover {
+  border-color: #2196f3;
+  fill: #2196f3;
+}
 .agree-look {
   padding-top: 20px;
   border: none;
+}
+.checkbox-hidden {
+}
+.checkbox-untick {
+  position: absolute;
+}
+.checkbox-tick {
+  position: absolute;
 }
 .form-label {
   color: #757575;
@@ -722,7 +737,7 @@ h4 {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
-.footer-section-3 {
+.footer-newsletter-section {
   float: left;
   padding-top: 72px;
   padding-left: 77px;
@@ -759,6 +774,10 @@ h4 {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+}
+.label-hover:hover {
+  border-color: #2196f3;
+  fill: #2196f3;
 }
 .newsletter-input {
   color: rgba(255, 255, 255, 0.6);
