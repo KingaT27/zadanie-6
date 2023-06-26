@@ -543,7 +543,7 @@ h4 {
   right: 0;
   bottom: 0;
   z-index: 1;
-  cursor: not-allowed;
+
   transform: scale(1);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -690,17 +690,45 @@ h4 {
   border-color: #2196f3;
   fill: #2196f3;
 }
+.merged-checkbox {
+  position: relative;
+}
 .agree-look {
   padding-top: 20px;
   border: none;
 }
 .checkbox-hidden {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 15px;
+  z-index: 10;
+}
+.checkbox-hidden:checked ~ .checkbox-tick {
+  visibility: visible;
+  background-color: #2196f3;
+  scale: 1;
+}
+.checkbox-hidden:checked ~ .checkbox-untick {
+  scale: 0;
 }
 .checkbox-untick {
   position: absolute;
+  left: -2px;
+  top: 2px;
+  scale: 1;
+  transition: 0.2s;
 }
 .checkbox-tick {
   position: absolute;
+  fill: #2196f3;
+  border-radius: 2px;
+  visibility: hidden;
+  transition-property: background-color, visibility, scale;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  scale: 0;
 }
 .form-label {
   color: #757575;
