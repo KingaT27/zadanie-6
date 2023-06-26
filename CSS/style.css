@@ -704,6 +704,7 @@ h4 {
   width: 16px;
   height: 15px;
   z-index: 10;
+  position: relative;
 }
 .checkbox-hidden:checked ~ .checkbox-tick {
   visibility: visible;
@@ -726,9 +727,11 @@ h4 {
   border-radius: 2px;
   visibility: hidden;
   transition-property: background-color, visibility, scale;
-  transition-duration: 1s;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   scale: 0;
+  left: -2px;
+  top: 2px;
 }
 .form-label {
   color: #757575;
