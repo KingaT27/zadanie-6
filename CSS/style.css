@@ -711,8 +711,9 @@ h4 {
   background-color: #2196f3;
   scale: 1;
 }
-.checkbox-hidden:checked ~ .checkbox-untick {
+.checkbox-hidden:checked + .checkbox-untick {
   scale: 0;
+  visibility: hidden;
 }
 .checkbox-untick {
   position: absolute;
